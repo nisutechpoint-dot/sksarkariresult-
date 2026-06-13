@@ -244,6 +244,30 @@ top:10px;
 right:20px;
 font-size:30px;
 }
+
+.menu-bar{
+background:magenta;
+color:white;
+padding:5px 10px;
+display:flex;
+align-items:center;
+gap:10px;
+font-size:20px;
+font-weight:bold;
+width:100%;
+}
+
+.menu-icon{
+cursor:pointer;
+padding:2px 8px;
+border:2px solid white;
+border-radius:5px;
+font-size:22px;
+}
+
+.menu-text{
+color:white;
+}
 </style>
 </head>
 <body>
@@ -258,9 +282,10 @@ font-size:30px;
 <a href="#">Contact</a>
 </div>
 
-<span onclick="openMenu()" style="font-size:30px;padding:10px;cursor:pointer;display:inline-block;">
-☰ Menu
-</span>
+<div class="menu-bar">
+    <span class="menu-icon" onclick="openMenu()">☰</span>
+    <span class="menu-text">Menu</span>
+</div>
 
 <header>
 <h1>SUMIT SARKARI RESULT</h1>
