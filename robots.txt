@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nisutechpoint-dot.github.io/sumitsarkariresult.com.in/sitemap.xml
